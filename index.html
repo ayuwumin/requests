@@ -7,16 +7,27 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Requests</h1>
+    <h1>Fake Blog</h1>
 
-    <button id="button">Button</button>
-    <!-- <button id="button2">Test</button> -->
+    <fieldset>
+      <legend>enter a new POST</legend>
 
-    <button id="button3">test</button>
-    <button id="insert">insert new post</button>
+      <div>
+        <input id="titleField" placeholder="post title" />
+      </div>
 
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/asyncAwait.js"></script>
-    <script src="assets/js/requests.js"></script>
+      <div>
+        <textarea id="bodyField"></textarea>
+      </div>
+
+      <div>
+        <button id="insertButton">Insert</button>
+      </div>
+    </fieldset>
+
+    <div class="posts"></div>
+
+    <!-- <script src="assets/js/requests.js"></script> -->
+    <script src="assets/js/fakeBlog.js"></script>
   </body>
 </html>
